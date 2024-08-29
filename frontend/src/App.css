@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+    font-size: 4rem;
+  }
+  
+  input[type="text"] {
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+  
+  .card-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 equal-width columns */
+  grid-template-rows: repeat(6, auto);  /* 6 rows with automatic height based on content */
+    gap: 20px;
+  }
+  
+  .card-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    flex: 1 1 calc(33.333% - 20px);
+    box-sizing: border-box;
+  }
+  
+  .card-item h2 {
+    margin-top: 0;
+    color: #333;
+  }
+  
+  .card-item p {
+    color: #666;
+  }
+  
+.searchbox{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header{
+  width: 100%;
+  background-color: black;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+.headersubmit{
+  padding: 15px;
+  border-radius: 2px;
+  margin-right: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid grey;
+  border-radius: 15px;
+}
